@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: rgb(21,144,216);
+    background: linear-gradient(135deg, rgba(21,144,216,1) 0%, rgba(107,225,254,1) 100%);
+}
+#home {
+    width: 90%;
+    margin: auto;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+#home .setup-instructions img {
+    width: 50%;
+}
+a {
+    color: #fff;
+}
+
+#home .setup-instructions img {
+    margin: 5px 0 5px 0;
+    width: 100%;
+}
+#home h1 {
+    margin: 20px;
+    font-size: 30px;
+}
+#home h2 {
+    background: rgb(0 0 0 / 69%);
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+}
+#home h3 {
+    background: rgb(0 0 0 / 69%);
+    color: #fff;
+    padding: 25px;
+    font-size: 18px;
+}
+/* If on desktop */
+@media (min-width: 1000px) {
+    #home {
+        width: 900px;
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+#app {
+    display: none;
+    width: 100%;
+    margin: auto;
+    color: #0a0a0a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#app button {
+    font-family: "Montserrat", sans-serif;
+    color: #0a0a0a;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    width: 90%;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #ffff00;
+    margin: 0
+}
+#app .content {
+    background-color: #f7f8f8;
+    padding: 50px 0 50px 0;
+    width: 100%;
+    min-height: 800px;
+    border-radius: 25px 25px 0 0;
+    box-shadow: 0 -15px 9px 0px #00000024;
+}
+#app .center {
+    width: 90%;
+    margin: auto;
+}
+#app .split {
+    width: 100%;
+    display: block;
+    position: fixed;
+}
+#app .split .left {
+    left: 0;
+    width: 25%;
+    display: block;
+    position: absolute;
+}
+#app .split .right {
+    right: 0;
+    width: 75%;
+    padding-right: 15px;
+    display: block;
+    position: absolute;
+}
+#app .icon {
+    border-radius: 15px;
+    width: 100%;
+    border: 3px solid #0a0a0a;
+}
+#app h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#app .trial {
+    width: 85%;
+}
+
+
+
+
+
+
+
+
